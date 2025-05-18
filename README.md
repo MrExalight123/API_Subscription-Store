@@ -20,7 +20,9 @@ REST API для управления платными подписками. По
 
 # Установка и запуск
 
-ocker compose run --rm  wep-app sh -c  "python manage.py migrate"
+- git clone https://github.com/MrExalight123/API_Subscription-Store.git
+
+docker compose run --rm  wep-app sh -c  "python manage.py migrate"
 
 docker compose run --rm  wep-app sh -c  "python manage.py test"
 
