@@ -20,6 +20,8 @@ REST API для управления платными подписками. По
 
 # Установка и запуск
 
+ocker compose run --rm  wep-app sh -c  "python manage.py migrate"
+
 docker compose run --rm  wep-app sh -c  "python manage.py test"
 
 docker compose up
