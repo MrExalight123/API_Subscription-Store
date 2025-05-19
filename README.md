@@ -22,7 +22,8 @@ REST API для управления платными подписками. По
 
 - git clone https://github.com/MrExalight123/API_Subscription-Store.git
 - Запуск докера
-# bash #
+в консоль вписаваем:
+cd (В директорию проекта)
 docker compose build
 
 docker compose run --rm  wep-app sh -c  "python manage.py migrate"
